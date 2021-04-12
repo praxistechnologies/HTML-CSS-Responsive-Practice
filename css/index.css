@@ -1,0 +1,504 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+
+}
+
+/*General Styles*/
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    background-color:#FBFFFB;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#4f4f4f;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration:none;
+    color:#266035;
+}
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    color:#266035;
+    margin-top: 22px;
+}
+h1{
+   color:#FBFFFB;
+   font-size:6rem; 
+}
+h2{
+    font-size:5rem;
+    padding-bottom: 4%;
+    text-align: center;
+}
+h3{
+    font-size:3rem;
+
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2e2e2e;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+
+/*Header section styles*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgba(255, 255, 255, 0.9);
+    position:fixed;
+    width:100%;
+    z-index:999;
+    top:0;
+}
+.logo{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo img{
+    width:50%;
+}
+.links{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+/*Top Section Styles*/
+#home{
+    height:80vh;
+    background-image:url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*About Section Styles*/
+#about{
+    display:flex;
+    justify-content:flex-end;
+    background-image:url('../images/about-img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding:12% 0;
+}
+#about div{
+    width:35%;
+    margin-right:10%;
+    padding:4%;
+}
+
+/*Shop Section Styles*/
+
+
+.shop {
+    margin-top: 2%;
+}
+
+.container{
+    display:flex;
+}
+
+.shopText{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopText div{
+    width:50%;
+    text-align:center;
+}
+.bg-img{
+    width:50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:50vh;
+}
+.succulants{
+    background-image:url('../images/succulants.jpg');
+}
+.cacti{
+    background-image:url('../images/cacti.jpg');
+}
+.tropicals{
+    background-image:url('../images/tropicals.jpg');
+}
+
+/*footer*/
+#contact{
+    display:flex;
+    flex-wrap:wrap;
+    color:#FBFFFB;
+    background-color:#266035;
+}
+#contact h2{
+    width:100%;
+    color:#FBFFFB;
+}
+#contact p.copyright{
+    width:100%;
+    text-align:right;
+    margin-right:10%;
+}
+.left, .right{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.right img{
+    width:40%;
+    padding:2%;
+}
+.left div{
+    width:40%;
+    line-height:2;
+}
+#contact h3{
+    color:#FBFFFB;
+}
+#contact a{
+    color:#FBFFFB;
+}
+
+/*Button*/
+
+.button {
+    font-size: 2.0rem;
+    line-height: 1.5;
+    padding: 12px 22px 12px 22px;
+    background-color: #266035;
+    color: #fff;
+    transition: 2s;
+    font-weight: 400;
+    border: 0;
+}
+
+
+
+.button:hover {
+    background-color: #fff;
+    border: 2px solid #266035;
+    color: #266035;
+    transition: 2s;
+   
+}
+
+
+.button2 {
+ font-size: 1.6rem;
+ line-height: 1.5;
+ padding: 12px 22px 12px 22px;
+ background-color: #fff;
+ color: #266035;
+ transition: 2s;
+ border: 0;
+ margin-top: 32px;
+}
+
+.button2:hover {
+    background-color: #266035;
+    color: #fff;
+    transition: 2s;
+}
+
+.socials {
+    color: #fff;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.copyright {
+    background-color: #266035;
+    padding: 2%;
+    text-align: right;
+}
+
+.copyright2 {
+    color: #fff;
+}
+
+.rightimg {
+    padding: 2%;
+}
+
+/*Responsive Styles*/
+/* max-width scales down - this is for desktop first design
+min-width scales up, this is for mobile first design*/
+
+@media(max-width:800px){ 
+    #about div{
+        width:40%;
+    }
+    .shopText div{
+        width: 70%;
+}
+
+.succulants {
+    width: 90%;
+}
+
+.cacti {
+    width: 90%;
+}
+
+.tropicals {
+    width: 90%;
+}
+
+.left, .right{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2%;
+}
+.right img{
+    width:50%;
+    padding:1%;
+}
+.left div{
+    width:40%;
+    line-height:2;
+}
+
+.contact {
+    font-size: 1.8rem;
+    line-height: 1.5;
+   }
+
+   nav{
+    flex-direction: column;
+align-items: center;
+}
+
+.links {
+    width: 100%;
+}
+
+.logo {
+    width: 25%;
+}
+
+#home button {
+    display: none;
+}
+
+#about {
+    background-image: none;
+    background-color: #e2e3e5;
+    justify-content: center;
+}
+
+
+#about div{
+    width:70%;
+    margin-right:3%;
+    padding:1%;
+}
+
+.container {
+    display:flex;
+    padding: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-img, .shopText {
+    width: 90%;
+    align-items: center;
+}
+
+.shopText div {
+    width: 100%;
+}
+
+.mobileSpecific {
+    flex-direction: column-reverse;
+}
+
+.mobileSpecifictext {
+    font-size: 2.0rem;
+    line-height: 1.5;
+}
+
+
+
+#contact p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+
+.left div {
+    width: 100%;
+}
+
+.right div {
+  width: 100%;
+}
+.right div {
+  width: 50%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+   
+}
+
+@media(max-width:500px){ 
+
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    width: 100%;
+}
+
+.logo {
+    width: 25%;
+}
+
+#home button {
+    display: none;
+}
+
+#about {
+    background-image: none;
+    background-color: #e2e3e5;
+    justify-content: center;
+}
+
+#about div{
+    width:60%;
+    margin-right:10%;
+    padding:2%;
+}
+
+.big-img, .shopText {
+    width: 90%;
+    align-items: center;
+}
+
+.shopText div {
+    width: 100%;
+}
+
+.mobileSpecific {
+    flex-direction: column-reverse;
+}
+
+.succulants {
+    width: 90%;
+}
+
+.cacti {
+    width: 90%;
+}
+
+.tropicals {
+    width: 90%;
+}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobilereverse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    text-align: center;
+}
+
+#contact p {
+ text-align: center;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+}
