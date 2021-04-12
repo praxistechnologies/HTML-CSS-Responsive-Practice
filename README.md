@@ -1,6 +1,6 @@
 # HTML-CSS-Responsive-Practice
 
-## Task 1 - Set up the project in Git Hub
+## Task 1 - Set up the project in Git Hub - DONE
 * Create a forked copy of this project
 * Clone your OWN version of the repository
 * Create a new branch: git checkout -b <firstName-lastName>.
