@@ -10,18 +10,18 @@
 ## Task 2 - MVP 
 ### HTML 
 * Semantic HTML is used throughout the site - please use most semantic element possible
-* all alt tags are filled out for accessibility
-* in your navigation, home should link to the top of the page, about should link to the about section, plants should link to the shop section and contact should link to the contact section. 
+* all alt tags are filled out for accessibility - Done
+* in your navigation, home should link to the top of the page, about should link to the about section, plants should link to the shop section and contact should link to the contact section. - DONE
 
 ### CSS
-* background color of site  and h1 is  #FBFFFB
+* background color of site  and h1 is  #FBFFFB - DONE
 * Use scalable units for sizing of containers, fonts, margin, padding where possible (%, em, rem, vh, vw, etc.) avoid the use of px 
-* Title font: Oxygen
-* Paragraph font: Source Sans Pro 
+* Title font: Oxygen - DONE
+* Paragraph font: Source Sans Pro - DONE
 * (note that the fonts in the design file are not the same as the google fonts)
-* navigation should be fixed to the top of the page when the user scrolls and the opacity should be 0.9
-* accent color (titles, links) is #266035
-* "shop our indoor plant sale" button should switch background color and text color on hover
+* navigation should be fixed to the top of the page when the user scrolls and the opacity should be 0.9 - DONE
+* accent color (titles, links) is #266035 - DONE
+* "shop our indoor plant sale" button should switch background color and text color on hover - DONE
 * must use flexbox for layout
 
 ### RESPONSIVE
